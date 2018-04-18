@@ -8,6 +8,7 @@ var socket = io();
         console.log('Disconnected from server');
     });
 
+    //riceve l'evento, ci fa qualcosa
     socket.on('newMessage', function(message) {
         console.log('New Message', message);
     });
