@@ -14,4 +14,4 @@ var generateLocationMessage = (from, lat, lon) => {
     }
 }
 
-module.exports = {generateMessage, generateLocationMessage};
+module.exports = {generateMessage, generateLocationMessage}; 
